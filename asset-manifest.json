@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/BBallAgent/static/css/main.7c06c583.chunk.css",
+    "main.js": "/BBallAgent/static/js/main.e75dae7e.chunk.js",
+    "main.js.map": "/BBallAgent/static/js/main.e75dae7e.chunk.js.map",
+    "runtime-main.js": "/BBallAgent/static/js/runtime-main.d5de0749.js",
+    "runtime-main.js.map": "/BBallAgent/static/js/runtime-main.d5de0749.js.map",
+    "static/js/2.e601b87f.chunk.js": "/BBallAgent/static/js/2.e601b87f.chunk.js",
+    "static/js/2.e601b87f.chunk.js.map": "/BBallAgent/static/js/2.e601b87f.chunk.js.map",
+    "index.html": "/BBallAgent/index.html",
+    "precache-manifest.001e8f3652ba3eda9a10e5a9200df689.js": "/BBallAgent/precache-manifest.001e8f3652ba3eda9a10e5a9200df689.js",
+    "service-worker.js": "/BBallAgent/service-worker.js",
+    "static/css/main.7c06c583.chunk.css.map": "/BBallAgent/static/css/main.7c06c583.chunk.css.map",
+    "static/js/2.e601b87f.chunk.js.LICENSE.txt": "/BBallAgent/static/js/2.e601b87f.chunk.js.LICENSE.txt",
+    "static/media/global.scss": "/BBallAgent/static/media/heeboLight.29bad8e0.ttf",
+    "static/media/arrow.cb750aef.svg": "/BBallAgent/static/media/arrow.cb750aef.svg",
+    "static/media/back.b369a94e.svg": "/BBallAgent/static/media/back.b369a94e.svg",
+    "static/media/player.85cddc58.svg": "/BBallAgent/static/media/player.85cddc58.svg",
+    "static/media/sort.svg": "/BBallAgent/static/media/sort.6d53f9d9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d5de0749.js",
+    "static/js/2.e601b87f.chunk.js",
+    "static/css/main.7c06c583.chunk.css",
+    "static/js/main.e75dae7e.chunk.js"
+  ]
+}
