@@ -1,0 +1,23 @@
+.homepage {
+    .intro-text {
+        font-size: 100px;
+        p {
+            &:first-of-type {
+                font-family: heeboExtraBold;
+                
+            }
+            
+            &:nth-of-type(2) {
+                font-family: heebo;
+                
+            }
+            
+            &:last-of-type {
+                font-family: heeboExtraLight;
+
+            }
+
+
+        }
+    }
+}

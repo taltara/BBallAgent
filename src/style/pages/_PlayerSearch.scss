@@ -1,0 +1,97 @@
+.player-search {
+  height: 100%;
+  width: 95%;
+  flex-wrap: wrap;
+  margin-block-start: 25px;
+  // overflow-y: auto;
+  // position: unset !important;
+
+  .search-column-section {
+    width: 100%;
+    & > *{
+      &:not(:last-of-type) {
+        margin-right: 25px;
+        margin-bottom: 20px;
+      }
+      &:last-of-type {
+        margin-right: 10px;
+      }
+    }
+  
+    .player-search-column {
+      box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+      // padding: 5px;
+      width: 400px;
+      border-radius: 20px;
+      &.column-small {
+        width: 325px;
+      }
+  
+      .search-column-title {
+        background-color: $clr1;
+        padding: 5px;
+        user-select: none;
+        border-bottom: 1px solid rgba(192, 192, 192, 0.85);
+        width: 100%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        .column-title-number {
+          font-family: animosaExtraBold;
+          background-color: $clr1;
+          font-size: 20px;
+          padding: 0 8px;
+          color: white;
+          margin-right: 10px;
+          box-shadow: 0px 0px 1.5px 0px rgba(0, 0, 0, 0.75);
+        }
+  
+        .column-title-title {
+          font-family: animosa;
+          text-transform: uppercase;
+          color: rgba(0, 0, 0, 0.75);
+          font-size: 20px;
+          letter-spacing: 1px;
+          color: white;
+        }
+
+        .type-switcher {
+          font-family: animosaExtraBold;
+          background-color: rgba(255, 255, 255, 0.5);
+        }
+      }
+  
+      .search-column-rows {
+        width: 100%;
+        .player-search-column-row {
+          padding: 10px 5px;
+          border-bottom: 2px solid transparent;
+          // height: 80px;
+  
+          .column-row-label {
+            min-width: 75px;
+            user-select: none;
+            font-size: 15px;
+          }
+  
+          &.row-number {
+            padding: 10px;
+            height: 55px;
+          }
+          &.row-border {
+            border-bottom: 2px solid rgba(192, 192, 192, 0.5);
+          }
+  
+          &.row-select {
+  
+            & > *:last-of-type {
+              // padding: 0 5px;
+              // height: 80px;
+            }
+          }
+  
+        }
+  
+      }
+    }
+  }
+}

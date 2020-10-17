@@ -1,0 +1,13 @@
+.tabs-list{
+    font-size: 22px;
+    font-family: animosaExtraBold;
+    height: fit-content;
+    width: 130px;
+    margin-top: 10px;
+    .tilt-button {
+      color: #073b4c;
+        &.activeTab {
+          // border-bottom: 2px solid rgba(245, 197, 24, 1);
+        }
+      }
+}

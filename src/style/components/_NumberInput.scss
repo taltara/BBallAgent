@@ -1,0 +1,99 @@
+.number-input {
+  width: 78px;
+  height: 47px;
+  border: 2px solid rgba(204, 204, 204, 0.75);
+  border-radius: 3px;
+  .number-arrow {
+    width: 10px;
+    &.number-arrow-up {
+      transform: rotateZ(270deg);
+    }
+    &.number-arrow-down {
+      transform: rotateZ(90deg);
+    }
+  }
+
+  input {
+    height: 100%;
+    // width: 100%;
+    width: 200%;
+    border: none;
+    font-size: 22px;
+    text-align: center;
+    outline: none;
+    font-family: heeboLight;
+    color: rgba(0, 0, 0, 0.25);
+    transition: 0.15s cubic-bezier(0.3, 0.45, 0.05, 1.03);
+    &:focus {
+      color: rgba(0, 0, 0, 1);
+    }
+  }
+
+  .number-input-arrows {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    border-left: 2px solid rgba(217, 217, 217, 0.75);
+    & > * {
+      flex-basis: 50%;
+      height: 100%;
+      width: 100%;
+      // background-color: tomato;
+      // border-radius: 2px;
+      &:first-of-type {
+        border-bottom: 2px solid rgba(217, 217, 217, 0.75);
+      }
+    }
+
+    .input-arrow-up {
+      transition: 0.15s ease-in-out;
+      .arrow-up {
+        transition: 0.15s cubic-bezier(0.3, 0.45, 0.05, 1.03);
+        // margin-bottom: -3px;
+        width: 22px;
+        height: 22px;
+        padding: 4px;
+        transform: rotateZ(-90deg);
+        fill: rgba(34, 139, 34, 0.5);
+        stroke: rgba(0, 0, 0, 0.85);
+        stroke-width: 2px;
+        stroke-opacity: 0.35;
+        // &:hover {
+        //     padding: 4px 1px 4px 7px;
+        // }
+        &.clicked-arrow {
+            fill: rgba(34, 139, 34, 0.25);
+            width: 20px;
+            height: 20px;
+            transform: rotateX(30deg) rotateZ(-90deg) translateX(5px);
+        }
+      }
+    }
+
+    .input-arrow-down {
+      transition: 0.15s ease-in-out;
+      .arrow-down {
+        transition: 0.15s cubic-bezier(0.3, 0.45, 0.05, 1.03);
+        // margin-bottom: 3px;
+        width: 22px;
+        height: 22px;
+        padding: 4px;
+        fill: rgba(255, 99, 71, 0.75);
+        stroke: rgba(0, 0, 0, 0.85);
+        stroke-width: 2px;
+        stroke-opacity: 0.35;
+        transform: rotateZ(90deg);
+
+        &.clicked-arrow {
+            fill: rgba(255, 99, 71, 0.5);
+            width: 20px;
+            height: 20px;
+            transform: rotateX(-30deg) rotateZ(90deg) translateX(5px);
+        }
+        // &:hover {
+        //     padding: 4px 1px 4px 7px;
+        // }
+      }
+    }
+  }
+}

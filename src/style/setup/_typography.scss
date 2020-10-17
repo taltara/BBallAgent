@@ -1,0 +1,49 @@
+
+// Animosa
+$ani-path: "../fonts/animosa";
+
+@font-face {
+  font-family: "animosa";
+  src: url("#{$ani-path}/animosa.woff2") format("woff2"),
+    url("#{$ani-path}/animosa.woff") format("woff"),
+    url("#{$ani-path}/animosa.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "animosaExtraBold";
+  src: url("#{$ani-path}/animosaExtraBold.woff2") format("woff2"),
+    url("#{$ani-path}/animosaExtraBold.woff") format("woff"),
+    url("#{$ani-path}/animosaExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "animosaExtraLight";
+  src: url("#{$ani-path}/animosaExtraLight.woff2") format("woff2"),
+    url("#{$ani-path}/animosaExtraLight.woff") format("woff"),
+    url("#{$ani-path}/animosaExtraLight.ttf") format("truetype");
+}
+
+
+// Heebo
+$hee-path: "../fonts/heebo";
+
+@font-face {
+  font-family: "heebo";
+  src: url("#{$hee-path}/heebo.ttf") format("truetype");
+}
+@font-face {
+  font-family: "heeboBold";
+  src: url("#{$hee-path}/heeboBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "heeboLight";
+  src: url("#{$hee-path}/heeboLight.ttf") format("truetype");
+}
+@font-face {
+  font-family: "heeboExtraBold";
+  src: url("#{$hee-path}/heeboExtraBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "heeboExtraLight";
+  src: url("#{$hee-path}/heeboExtraLight.ttf") format("truetype");
+}
